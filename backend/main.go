@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"backend/pkg/server"
+)
 
 func main() {
-	fmt.Println("hello world")
+	server.ConnectServer()
+
 }
