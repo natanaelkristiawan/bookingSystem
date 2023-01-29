@@ -5,9 +5,9 @@ import (
 )
 
 type SuccessResponse struct {
-	Response bool
-	Message  string
-	Data     map[string]interface{}
+	Response bool                   `json:"response"`
+	Message  string                 `json:"message"`
+	Data     map[string]interface{} `json:"data"`
 }
 
 type Controller interface {
